@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: "Cairo", serif;
+}
+/* navbar */
+navbar{
+    background-color: #017dbf !important;
+}
+
+.carousel-item img{
+    height: 100vh;
+
+}
+.myicon{
+    color: #017dbf;
+    font-size: 30px;
+}
+.carousel-caption{
+    background-color: rgba(138, 135, 135, 0.765);
+
+    border-radius: 20px;
+    bottom: 8rem;
+
+}
+
+.carousel-caption:hover{
+    background-color: rgba(48,97,232,0.4);
+   transition: ease all .7s;
+
+}
+.btn-dark:hover{
+    background-color: crimson;
+    border-radius: 20px;
+    transition: 1s ease all;
+
+}
+
+.carousel-indicators button{
+    height:20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
+    background-color: #017dbf;
+
+}
+.carousel-indicators button:hover{
+    background-color: crimson !important;
+}
+.carousel-caption h2{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-caption{
+    padding: 50px !important;
+}
+/* offcanvas */
+.offcan-img{
+    width: 250px !important;
+    height: 300px !important;
+}
+.offcanvas-price{
+    color: #017dbf ;
+    font-weight: bold;
+}
+.offcan-header{
+    color: crimson;
+}
+.offcan-img:hover{
+    transform: skew(-5deg);
+    transition: ease all 1s;
+}
+
+.text-header{
+    border-bottom: crimson solid 5px;
+}
+.btn-primary {
+    background-color: #017dbf;
+}
+.btn-primary:hover{
+    background-color: crimson;
+    border-radius: 15px;
+    transition: 1s ease all;
+}
+
+
+
+
+.blue{
+    color: #017dbf !important;
+}
+.bluecimon{
+    color: #017dbf !important;
+}
+.bluecimon:hover{
+    color: crimson !important;
+    transition: all ease 1s;
+    cursor: pointer;
+
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: ease all 1s;
+
+}
+.contact{
+    height: 60vh;
+    background-image: url(../images/work/work2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.inputconT{
+    border-radius: 0px;
+}
+.contact button{
+    width: 150px !important;
+    border-radius: 20px 0px 0px 20px !important;
+}
+.bestselling img:hover{
+    transform: rotate(5deg) scale(1.1);
+    transition: ease all 1s;
+
+}
+.contract h5{
+    color: crimson !important;
+}
+.accordion .accordion-button{
+background-color: #017dbf !important;
+color: white !important;
+text-align: center !important;
+display: flex;
+justify-content: center ;
+}
+.accordion-button::after{
+    display: none;
+}
+
+footer{
+    background-color: #017dbf;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  #services{
+    margin-top:150px !important;
+  }
